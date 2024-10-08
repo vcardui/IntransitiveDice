@@ -152,7 +152,7 @@ Dado 4 “Morado”: 5, 5, 5, 1, 1, 1
 
 La relación de superioridad entre los dados está determinada, de acuerdo con los resultados expuestos en la figura 3 se describe en la figura 4 a continuación:
 
-![image.png](images/image.png)
+![Intransitivity_3rd_dice.png](images/Intransitivity_3rd_dice.png)
 
 Figura 4
 
