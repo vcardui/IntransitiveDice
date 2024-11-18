@@ -49,9 +49,9 @@ tirar<-function(d,n=1){
 }
 
 # Comparing dice to determine winner
-# (Which die is "better"?)
+# (Which dice is "better"?)
 gana<-function(s1,s2){
-   # Determine which die has the highest value
+   # Determine which dice has the highest value
    # If both are equal, determine that "white" won
    res<-ifelse(s1$t<s2$t,s2$nom,
 	 ifelse(s1$t>s2$t,s1$nom,"white"))
@@ -80,7 +80,7 @@ for(i in 1:10000){
     s2<-tirar(dado2)
     s3<-tirar(dado3)
     
-    # Determine which die wins and save it in variable
+    # Determine which dice wins and save it in variable
     r1vs2<-gana(s1, s2)
     r1vs3<-gana(s1, s3)
     r2vs3<-gana(s2, s3)
@@ -130,7 +130,7 @@ for(i in 1:10000){
     s2<-tirar(dado2)
     s3<-tirar(dado3)
     
-    # Determine which die wins and save it in variable
+    # Determine which dice wins and save it in variable
     r1vs2<-gana(s1, s2)
     r1vs3<-gana(s1, s3)
     r2vs3<-gana(s2, s3)
@@ -186,7 +186,7 @@ for(i in 1:10000){
     s3<-tirar(dado3)
     s4<-tirar(dado4)
     
-    # Determine which die wins and save it in variable
+    # Determine which dice wins and save it in variable
     r1vs2<-gana(s1, s2)
     r1vs3<-gana(s1, s3)
     r1vs4<-gana(s1, s4)
